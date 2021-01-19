@@ -12,12 +12,11 @@
   .footer_redes ul li a {
     padding: 6px;
   }
-  
+
   .footer_redes ul li a img {
     width: 26px;
     height: 26px;
   }
-  
 }
 
 @media only screen and (max-width: 787px) {
@@ -34,7 +33,7 @@
   .header_menu {
     text-align: center;
   }
-  
+
   .header_menu ul li {
     margin: 5px;
   }
@@ -44,10 +43,14 @@
     width: 136px;
     display: block;
     float: left;
-    transition: all .3s;
+    transition: all 0.3s;
   }
- 
+
   .header_menu ul li a:hover {
+    border-color: #fff;
+  }
+  
+  .header_menu ul li a.menu_ativo {
     border-color: #fff;
   }
 
@@ -57,9 +60,14 @@
     background: url(../img/bg-mobile.jpg) no-repeat center;
     background-size: cover;
   }
-  
+
   .intro h1 {
     font-size: 36px;
+  }
+
+  /* Intro Interna */
+  .intro-interna {
+    margin-top: 0px;
   }
 
   /* Call to Action */
@@ -67,9 +75,20 @@
     padding-top: 10px;
   }
 
-   /* Qualidade Home */
+  /* Qualidade Home */
   .qualidade::after {
     display: none;
   }
 
+  /* Sobre */
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 0px;
+  }
+
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
 }
