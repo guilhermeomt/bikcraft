@@ -202,6 +202,10 @@ img {
   text-align: center;
 }
 
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
 .produtos_icone {
   background-color: #000;
   padding: 20px;
