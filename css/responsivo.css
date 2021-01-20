@@ -1,5 +1,6 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   /* Qualidade Home */
+
   .qualidade::after {
     right: 66px;
   }
@@ -9,6 +10,7 @@
   }
 
   /* Footer */
+
   .footer_redes ul li a {
     padding: 6px;
   }
@@ -17,10 +19,33 @@
     width: 26px;
     height: 26px;
   }
+
+  /* Produtos */
+
+  .produto_item h2 {
+    top: -150px;
+    margin-bottom: -56px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    height: 122px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
+  }
 }
 
 @media only screen and (max-width: 787px) {
   /* Header */
+
   .header {
     position: relative;
     padding-bottom: 20px;
@@ -49,12 +74,13 @@
   .header_menu ul li a:hover {
     border-color: #fff;
   }
-  
+
   .header_menu ul li a.menu_ativo {
     border-color: #fff;
   }
 
   /* Intro */
+
   .intro {
     margin-top: 0px;
     background: url(../img/bg-mobile.jpg) no-repeat center;
@@ -66,11 +92,13 @@
   }
 
   /* Intro Interna */
+
   .intro-interna {
     margin-top: 0px;
   }
 
   /* Call to Action */
+
   .cta {
     padding-top: 10px;
   }
@@ -81,6 +109,7 @@
   }
 
   /* Sobre */
+
   .missao_sobre p {
     font-size: 14px;
     line-height: 25px;
@@ -90,5 +119,38 @@
   .missao_sobre ul li {
     font-size: 14px;
     line-height: 25px;
+  }
+
+  /* Produtos */
+
+  .produto_item h2 {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 149px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento_dados ul {
+    padding-right: 0px;
   }
 }
